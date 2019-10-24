@@ -1,21 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Mechanical_MountingHole
-#
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
 # helix-rescue_CONN_01X01-helix-cache-2019-03-21-22-27-31
 #
 DEF helix-rescue_CONN_01X01-helix-cache-2019-03-21-22-27-31 P 0 40 Y N 1 F N
@@ -157,6 +142,21 @@ X ~ A 450 150 150 L 50 50 1 1 P
 X ~ B 450 -200 150 L 50 50 1 1 P
 X ~ C 450 -100 150 L 50 50 1 1 P
 X ~ D 450 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# helix-rescue_MountingHole-Mechanical
+#
+DEF helix-rescue_MountingHole-Mechanical H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "helix-rescue_MountingHole-Mechanical" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #

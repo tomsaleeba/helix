@@ -145,6 +145,21 @@ X ~ D 450 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# MountingHole-Mechanical
+#
+DEF MountingHole-Mechanical H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "MountingHole-Mechanical" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
 # PWR_FLAG-helix-cache-2019-03-21-22-27-31
 #
 DEF PWR_FLAG-helix-cache-2019-03-21-22-27-31 #FLG 0 0 N N 1 F P

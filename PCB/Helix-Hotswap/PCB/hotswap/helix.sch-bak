@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:helix-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -794,6 +794,28 @@ F 3 "" H 6450 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW26
+U 1 1 59B8D894
+P 9500 4450
+F 0 "SW26" H 9650 4560 50  0000 C CNN
+F 1 "SW_PUSH" H 9500 4370 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 9500 4450 50  0001 C CNN
+F 3 "" H 9500 4450 50  0000 C CNN
+	1    9500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D26
+U 1 1 59B8D89A
+P 9800 4600
+F 0 "D26" H 9800 4700 50  0000 C CNN
+F 1 "D" H 9800 4500 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 9800 4600 50  0001 C CNN
+F 3 "" H 9800 4600 50  0000 C CNN
+	1    9800 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
 L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW27
 U 1 1 59B8D8A0
 P 10350 4450
@@ -879,6 +901,28 @@ F 1 "D" H 13200 4500 50  0000 C CNN
 F 2 "MYLIB:D3_TH_SMD" H 13200 4600 50  0001 C CNN
 F 3 "" H 13200 4600 50  0000 C CNN
 	1    13200 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L helix-rescue:SW_PUSH-helix-cache-2019-03-21-22-27-31 SW31
+U 1 1 59B8D8D0
+P 13750 4450
+F 0 "SW31" H 13900 4560 50  0000 C CNN
+F 1 "SW_PUSH" H 13750 4370 50  0000 C CNN
+F 2 "JMG:MXOnly-1U-Hotswap-Double-noled" H 13750 4450 50  0001 C CNN
+F 3 "" H 13750 4450 50  0000 C CNN
+	1    13750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:D-helix-cache-2019-03-21-22-27-31 D31
+U 1 1 59B8D8D6
+P 14050 4600
+F 0 "D31" H 14050 4700 50  0000 C CNN
+F 1 "D" H 14050 4500 50  0000 C CNN
+F 2 "MYLIB:D3_TH_SMD" H 14050 4600 50  0001 C CNN
+F 3 "" H 14050 4600 50  0000 C CNN
+	1    14050 4600
 	0    -1   -1   0   
 $EndComp
 Text GLabel 8950 4750 0    60   Input ~ 0
@@ -1362,6 +1406,17 @@ F 3 "" H 14650 7900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
+L helix-rescue:SK6812mini-helix-cache-2019-03-21-22-27-31 U32
+U 1 1 5A08E7B9
+P 13800 8500
+F 0 "U32" H 13700 8700 60  0000 C CNN
+F 1 "SK6812mini" H 14000 8300 39  0000 C CNN
+F 2 "MYLIB_REV:SK6812MINI_rev" H 13800 8500 60  0001 C CNN
+F 3 "" H 13800 8500 60  0000 C CNN
+	1    13800 8500
+	1    0    0    -1  
+$EndComp
+$Comp
 L helix-rescue:SK6812mini-helix-cache-2019-03-21-22-27-31 U31
 U 1 1 5A08E7BF
 P 12950 8500
@@ -1392,6 +1447,28 @@ F 1 "SK6812mini" H 11450 8300 39  0000 C CNN
 F 2 "MYLIB_REV:SK6812MINI_rev" H 11250 8500 60  0001 C CNN
 F 3 "" H 11250 8500 60  0000 C CNN
 	1    11250 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SK6812mini-helix-cache-2019-03-21-22-27-31 U28
+U 1 1 5A08E7D1
+P 10400 8500
+F 0 "U28" H 10300 8700 60  0000 C CNN
+F 1 "SK6812mini" H 10600 8300 39  0000 C CNN
+F 2 "MYLIB_REV:SK6812MINI_rev" H 10400 8500 60  0001 C CNN
+F 3 "" H 10400 8500 60  0000 C CNN
+	1    10400 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix-rescue:SK6812mini-helix-cache-2019-03-21-22-27-31 U27
+U 1 1 5A08E7D7
+P 9550 8500
+F 0 "U27" H 9450 8700 60  0000 C CNN
+F 1 "SK6812mini" H 9750 8300 39  0000 C CNN
+F 2 "MYLIB_REV:SK6812MINI_rev" H 9550 8500 60  0001 C CNN
+F 3 "" H 9550 8500 60  0000 C CNN
+	1    9550 8500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1639,7 +1716,9 @@ Wire Wire Line
 Wire Wire Line
 	14350 8400 14350 8600
 Wire Wire Line
-	14350 8600 14105 8600
+	14350 8600 14100 8600
+Wire Wire Line
+	13500 8400 13500 8600
 Wire Wire Line
 	13500 8600 13250 8600
 Wire Wire Line
@@ -1656,6 +1735,8 @@ Wire Wire Line
 	10950 8600 10700 8600
 Wire Wire Line
 	10100 8400 10100 8600
+Wire Wire Line
+	10100 8600 9850 8600
 Wire Wire Line
 	14150 5800 14150 5700
 Wire Wire Line
@@ -1705,6 +1786,8 @@ Wire Wire Line
 Wire Wire Line
 	10050 1800 10050 4450
 Wire Wire Line
+	9200 1800 9200 4450
+Wire Wire Line
 	13450 1800 13450 4450
 Wire Wire Line
 	8950 2300 14050 2300
@@ -1712,6 +1795,8 @@ Wire Wire Line
 	8950 2900 14050 2900
 Wire Wire Line
 	8950 3550 14050 3550
+Wire Wire Line
+	8950 4150 14900 4150
 Wire Wire Line
 	8950 4750 14900 4750
 Wire Wire Line
@@ -1733,7 +1818,7 @@ Wire Wire Line
 Wire Wire Line
 	14950 8000 14950 8600
 $Comp
-L helix-rescue:MountingHole-Mechanical H2
+L Mechanical:MountingHole H2
 U 1 1 5CBE51DD
 P 6050 6300
 F 0 "H2" H 6150 6346 50  0000 L CNN
@@ -1744,7 +1829,7 @@ F 3 "~" H 6050 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H1
+L Mechanical:MountingHole H1
 U 1 1 5CBE541A
 P 6050 6500
 F 0 "H1" H 6150 6546 50  0000 L CNN
@@ -1755,7 +1840,7 @@ F 3 "~" H 6050 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H3
+L Mechanical:MountingHole H3
 U 1 1 5CBE7733
 P 6050 6700
 F 0 "H3" H 6150 6746 50  0000 L CNN
@@ -1766,7 +1851,7 @@ F 3 "~" H 6050 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H4
+L Mechanical:MountingHole H4
 U 1 1 5CBE78D5
 P 6050 6900
 F 0 "H4" H 6150 6946 50  0000 L CNN
@@ -1777,7 +1862,7 @@ F 3 "~" H 6050 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H5
+L Mechanical:MountingHole H5
 U 1 1 5CBE7A74
 P 6750 6250
 F 0 "H5" H 6850 6296 50  0000 L CNN
@@ -1788,7 +1873,7 @@ F 3 "~" H 6750 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H6
+L Mechanical:MountingHole H6
 U 1 1 5CBE7C98
 P 6750 6450
 F 0 "H6" H 6850 6496 50  0000 L CNN
@@ -1799,7 +1884,7 @@ F 3 "~" H 6750 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H7
+L Mechanical:MountingHole H7
 U 1 1 5CBE7E3F
 P 6750 6650
 F 0 "H7" H 6850 6696 50  0000 L CNN
@@ -1810,7 +1895,7 @@ F 3 "~" H 6750 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H8
+L Mechanical:MountingHole H8
 U 1 1 5CBE8613
 P 6750 6850
 F 0 "H8" H 6850 6896 50  0000 L CNN
@@ -1821,7 +1906,7 @@ F 3 "~" H 6750 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H9
+L Mechanical:MountingHole H9
 U 1 1 5CBE87B7
 P 6750 7050
 F 0 "H9" H 6850 7096 50  0000 L CNN
@@ -1832,7 +1917,7 @@ F 3 "~" H 6750 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H10
+L Mechanical:MountingHole H10
 U 1 1 5CBEFBD4
 P 6050 7400
 F 0 "H10" H 6150 7446 50  0000 L CNN
@@ -1843,7 +1928,7 @@ F 3 "~" H 6050 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H12
+L Mechanical:MountingHole H12
 U 1 1 5CBEFD9B
 P 6750 7400
 F 0 "H12" H 6850 7446 50  0000 L CNN
@@ -1854,7 +1939,7 @@ F 3 "~" H 6750 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H11
+L Mechanical:MountingHole H11
 U 1 1 5CBEFF57
 P 6050 7600
 F 0 "H11" H 6150 7646 50  0000 L CNN
@@ -1865,7 +1950,7 @@ F 3 "~" H 6050 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L helix-rescue:MountingHole-Mechanical H13
+L Mechanical:MountingHole H13
 U 1 1 5CBF010C
 P 6750 7600
 F 0 "H13" H 6850 7646 50  0000 L CNN
@@ -1875,34 +1960,4 @@ F 3 "~" H 6750 7600 50  0001 C CNN
 	1    6750 7600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8950 4150 14900 4150
-Wire Wire Line
-	9200 1800 9200 4450
-Wire Wire Line
-	9250 8400 10100 8400
-Connection ~ 10100 8400
-$Comp
-L helix-rescue:SK6812mini-helix-cache-2019-03-21-22-27-31 U28
-U 1 1 5A08E7D1
-P 10400 8500
-F 0 "U28" H 10300 8700 60  0000 C CNN
-F 1 "SK6812mini" H 10600 8300 39  0000 C CNN
-F 2 "MYLIB_REV:SK6812MINI_rev" H 10400 8500 60  0001 C CNN
-F 3 "" H 10400 8500 60  0000 C CNN
-	1    10400 8500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14105 8600 14105 8405
-Wire Wire Line
-	14105 8405 13500 8405
-Wire Wire Line
-	13500 8400 13500 8405
-Connection ~ 14105 8600
-Wire Wire Line
-	14105 8600 14100 8600
-Connection ~ 13500 8405
-Wire Wire Line
-	13500 8405 13500 8600
 $EndSCHEMATC
